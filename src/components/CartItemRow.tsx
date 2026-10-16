@@ -62,7 +62,7 @@ export const CartItemRow: React.FC<CartItemRowProps> = ({
 
       {/* Line Total & Remove Action */}
       <div className="text-right flex items-center gap-3">
-        <div className="min-w-[70px]">
+        <div className="min-w-17.5">
           <span className="text-sm font-bold text-slate-900 block">
             {formatPaise(lineTotal)}
           </span>
